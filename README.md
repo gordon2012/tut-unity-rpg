@@ -5,7 +5,7 @@
 ### Playlist - https://www.youtube.com/playlist?list=PLPV2KyIb3jR4KLGCCAciWQ5qHudKtYeP7
 - [X] How to make an RPG in Unity - Introduction
 - [X] MOVEMENT - Making an RPG in Unity (E01)
-- [ ] INTERACTION - Making an RPG in Unity (E02)
+- [X] INTERACTION - Making an RPG in Unity (E02)
 - [ ] INTEGRATION 01 - Making an RPG in Unity (E03)
 - [ ] ITEMS - Making an RPG in Unity (E04)
 - [ ] INVENTORY UI - Making an RPG in Unity (E05)

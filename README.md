@@ -6,7 +6,7 @@
 - [X] How to make an RPG in Unity - Introduction
 - [X] MOVEMENT - Making an RPG in Unity (E01)
 - [X] INTERACTION - Making an RPG in Unity (E02)
-- [ ] INTEGRATION 01 - Making an RPG in Unity (E03)
+- [X] INTEGRATION 01 - Making an RPG in Unity (E03)
 - [ ] ITEMS - Making an RPG in Unity (E04)
 - [ ] INVENTORY UI - Making an RPG in Unity (E05)
 - [ ] INVENTORY CODE - Making an RPG in Unity (E06)

@@ -55,9 +55,8 @@ public class PlayerController : MonoBehaviour {
   void RemoveFocus() {
     if(focus != null) {
       focus.OnDefocused();
+      focus = null;
     }
-    focus.OnDefocused();
-    focus = null;
     motor.StopFollowingTarget();
   }
 

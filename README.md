@@ -7,7 +7,7 @@
 - [X] MOVEMENT - Making an RPG in Unity (E01)
 - [X] INTERACTION - Making an RPG in Unity (E02)
 - [X] INTEGRATION 01 - Making an RPG in Unity (E03)
-- [ ] ITEMS - Making an RPG in Unity (E04)
+- [X] ITEMS - Making an RPG in Unity (E04)
 - [ ] INVENTORY UI - Making an RPG in Unity (E05)
 - [ ] INVENTORY CODE - Making an RPG in Unity (E06)
 - [ ] EQUIPMENT - Making an RPG in Unity (E07)

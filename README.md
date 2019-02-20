@@ -12,7 +12,7 @@
 - [X] INVENTORY CODE - Making an RPG in Unity (E06)
 - [X] EQUIPMENT - Making an RPG in Unity (E07)
 - [X] INTEGRATION 02 - Making an RPG in Unity (E08)
-- [ ] STATS - Making an RPG in Unity (E09)
+- [X] STATS - Making an RPG in Unity (E09)
 - [ ] ENEMY AI - Making an RPG in Unity (E10)
 - [ ] COMBAT - Making an RPG in Unity (E11)
 - [ ] INTEGRATION 03 - Making an RPG in Unity (E12)

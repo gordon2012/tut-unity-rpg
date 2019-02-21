@@ -43,7 +43,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000116, guid: a6df3328c09abc441b0d2c6f6ae52f71,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -3554,6 +3555,7 @@ GameObject:
   - component: {fileID: 741399445}
   - component: {fileID: 741399444}
   - component: {fileID: 741399443}
+  - component: {fileID: 741399449}
   - component: {fileID: 741399442}
   - component: {fileID: 741399448}
   - component: {fileID: 741399447}
@@ -3654,7 +3656,7 @@ MonoBehaviour:
   damage:
     baseValue: 5
   armor:
-    baseValue: 3
+    baseValue: 1
 --- !u!114 &741399448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3668,6 +3670,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   interactionTransform: {fileID: 741399446}
+--- !u!114 &741399449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 741399441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae3b48afe112da419ae9a1c7c2bf6c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackSpeed: 1
+  attackDelay: 6
 --- !u!1 &765672447
 GameObject:
   m_ObjectHideFlags: 0
@@ -4651,6 +4666,7 @@ GameObject:
   - component: {fileID: 1030113304}
   - component: {fileID: 1030113303}
   - component: {fileID: 1030113302}
+  - component: {fileID: 1030113310}
   - component: {fileID: 1030113306}
   - component: {fileID: 1030113307}
   - component: {fileID: 1030113308}
@@ -4778,6 +4794,19 @@ MonoBehaviour:
     baseValue: 0
   armor:
     baseValue: 0
+--- !u!114 &1030113310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1030113301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae3b48afe112da419ae9a1c7c2bf6c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackSpeed: 1
+  attackDelay: 6
 --- !u!1001 &1035061487
 Prefab:
   m_ObjectHideFlags: 0

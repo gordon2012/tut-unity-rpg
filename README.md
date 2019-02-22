@@ -15,5 +15,5 @@
 - [X] STATS - Making an RPG in Unity (E09)
 - [X] ENEMY AI - Making an RPG in Unity (E10)
 - [X] COMBAT - Making an RPG in Unity (E11)
-- [ ] INTEGRATION 03 - Making an RPG in Unity (E12)
+- [X] INTEGRATION 03 - Making an RPG in Unity (E12)
 - [ ] INTEGRATION 04 - Making an RPG in Unity (E13)

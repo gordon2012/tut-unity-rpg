@@ -6,11 +6,15 @@ using UnityEngine;
 public class CharacterCombat : MonoBehaviour {
 
   public float attackSpeed = 1f;
-  public float attackDelay = .6f;
-  public event System.Action OnAttack;
-
   private float attackCooldown = 0f;
+  const float combatCooldown = 5;
+  float lastAttackTime;
 
+  public float attackDelay = .6f;
+
+  public bool InCombat {get; private set; }
+  public event System.Action OnAttack;
+  
   CharacterStats myStats;
 
   public void Start() {
@@ -18,6 +22,9 @@ public class CharacterCombat : MonoBehaviour {
   }
 
   void Update() {
+    if(Time.time - lastAttackTime > combatCooldown) {
+      InCombat = false;
+    }
     attackCooldown-= Time.deltaTime;
   }
 
@@ -30,12 +37,17 @@ public class CharacterCombat : MonoBehaviour {
       }
 
       attackCooldown = 1f / attackSpeed;
+      InCombat = true;
+      lastAttackTime = Time.time;
     }
 	}
 
   IEnumerator DoDamage(CharacterStats stats, float delay) {
     yield return new WaitForSeconds(delay);
     stats.TakeDamage(myStats.damage.GetValue());
+    if(stats.currentHealth <= 0) {
+      InCombat = false;
+    }
   }
 
 }
